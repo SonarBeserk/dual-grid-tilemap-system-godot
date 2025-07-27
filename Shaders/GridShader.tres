@@ -13,7 +13,7 @@ varying_name = "WorldPos"
 varying_type = 3
 
 [sub_resource type="VisualShaderNodeVectorOp" id="VisualShaderNodeVectorOp_0jp75"]
-default_input_values = [0, Vector2(0, 0), 1, Vector2(16, 16)]
+default_input_values = [0, Vector2(0, 0), 1, Vector2(32, 32)]
 op_type = 0
 operator = 4
 
@@ -116,7 +116,7 @@ void fragment() {
 
 
 // VectorOp:20
-	vec2 n_in20p1 = vec2(16.00000, 16.00000);
+	vec2 n_in20p1 = vec2(32.00000, 32.00000);
 	vec2 n_out20p0 = mod(n_out26p0, n_in20p1);
 
 

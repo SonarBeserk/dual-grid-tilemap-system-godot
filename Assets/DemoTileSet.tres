@@ -5,11 +5,13 @@
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_obwfr"]
 texture = ExtResource("1_ndw88")
+texture_region_size = Vector2i(32, 32)
 0:0/0 = 0
 1:0/0 = 0
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_ro1po"]
 texture = ExtResource("2_gmvtd")
+texture_region_size = Vector2i(32, 32)
 0:0/0 = 0
 1:0/0 = 0
 2:0/0 = 0
@@ -28,5 +30,6 @@ texture = ExtResource("2_gmvtd")
 3:3/0 = 0
 
 [resource]
+tile_size = Vector2i(32, 32)
 sources/0 = SubResource("TileSetAtlasSource_obwfr")
 sources/1 = SubResource("TileSetAtlasSource_ro1po")
